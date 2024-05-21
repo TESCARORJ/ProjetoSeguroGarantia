@@ -1,11 +1,15 @@
-Projeto API Seguro Garantia
-Este é um projeto de API desenvolvido em ASP.NET Core 6, utilizando os princípios de Domain-Driven Design (DDD), Entity Framework, e CQRS. A API foi projetada para gerenciar seguros garantia, utilizando bancos de dados SQL Server e MongoDB, e integrações com RabbitMQ para comunicação assíncrona.
+# Projeto API Seguro Garantia
 
-Tecnologias Utilizadas
-ASP.NET Core 6: Framework para desenvolvimento de aplicações web.
-Domain-Driven Design (DDD): Abordagem de design focada no domínio do problema.
-Entity Framework: ORM para manipulação de dados em bancos relacionais.
-CQRS (Command Query Responsibility Segregation): Padrão que separa operações de leitura e escrita.
-SQL Server: Banco de dados relacional.
-MongoDB: Banco de dados NoSQL orientado a documentos.
-RabbitMQ: Sistema de mensageria para comunicação assíncrona entre serviços.
+<p>Este é um projeto de API desenvolvido em <strong>ASP.NET Core 6</strong>, utilizando os princípios de <strong>Domain-Driven Design (DDD)</strong>, <strong>Entity Framework</strong>, e <strong>CQRS</strong>. A API foi projetada para gerenciar seguros garantia, utilizando bancos de dados <strong>SQL Server</strong> e <strong>MongoDB</strong>, e integrações com <strong>RabbitMQ</strong> para comunicação assíncrona.</p>
+
+## Tecnologias Utilizadas
+
+<ul>
+    <li><strong>ASP.NET Core 6</strong>: Framework para desenvolvimento de aplicações web.</li>
+    <li><strong>Domain-Driven Design (DDD)</strong>: Abordagem de design focada no domínio do problema.</li>
+    <li><strong>Entity Framework</strong>: ORM para manipulação de dados em bancos relacionais.</li>
+    <li><strong>CQRS (Command Query Responsibility Segregation)</strong>: Padrão que separa operações de leitura e escrita.</li>
+    <li><strong>SQL Server</strong>: Banco de dados relacional.</li>
+    <li><strong>MongoDB</strong>: Banco de dados NoSQL orientado a documentos.</li>
+    <li><strong>RabbitMQ</strong>: Sistema de mensageria para comunicação assíncrona entre serviços.</li>
+</ul>
