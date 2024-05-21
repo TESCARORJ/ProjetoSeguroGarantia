@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+	  <!-- Geração da documentação do código -->
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.30">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjetoSeguroGarantia.Application\ProjetoSeguroGarantia.Application.csproj" />
+    <ProjectReference Include="..\ProjetoSeguroGarantia.Domain\ProjetoSeguroGarantia.Domain.csproj" />
+    <ProjectReference Include="..\ProjetoSeguroGarantia.Infra.Data\ProjetoSeguroGarantia.Infra.Data.csproj" />
+    <ProjectReference Include="..\ProjetoSeguroGarantia.Infra.Messages\ProjetoSeguroGarantia.Infra.Messages.csproj" />
+    <ProjectReference Include="..\ProjetoSeguroGarantia.Infra.Storage\ProjetoSeguroGarantia.Infra.Storage.csproj" />
+  </ItemGroup>
+
+</Project>
